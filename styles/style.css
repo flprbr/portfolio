@@ -51,12 +51,17 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fonte-primaria);
+}
+
+.apresentacao__titulo__topicos {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5 rem   ;
 }
 
 .titulo-destaque {
@@ -64,8 +69,9 @@ body {
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
+    text-align: justify;
 }
 
 .apresentacao__links{
@@ -105,6 +111,8 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
+    border-radius: 20px;
+    
 }
 
 .rodape {
@@ -134,5 +142,6 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
 
 }
